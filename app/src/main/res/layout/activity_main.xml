@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ED9121"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Text"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#dc4697"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="Enter text here"
+
+        android:id="@+id/et1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:text="GetText"/>
+        <!--onClick=getText-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:text=""
+        />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ClearText"
+    android:id="@+id/bt2"/>
+<!-- xml config onClick=clearText-->
+</LinearLayout>
